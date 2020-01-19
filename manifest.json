@@ -1,0 +1,30 @@
+{
+    "name": "Request Gryphon Unblock",
+    "version": "1.0.0",
+    "author": "Grant Winney",
+    "description": "If you're using the Gryphon router and a site is blocked, click the icon to request access.",
+    "homepage_url": "https://github.com/grantwinney/request-gryphon-unblock",
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {
+        "default_title": "Request Gryphon Unblock",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "64": "images/icon-64.png",
+            "128": "images/icon-128.png",
+            "256": "images/icon-256.png"
+        }
+    },
+
+    "background": {
+        "scripts": [
+            "scripts/jquery-3.4.1.min.js",
+            "scripts/background.js"
+        ],
+        "persistent": false
+    },
+
+    "manifest_version": 2
+}
