@@ -16,4 +16,5 @@ If you have a problem, question, or comment, [open an issue](https://github.com/
 ## History
 
 * 1.0.0 - Initial version. (Jan 18, 2020)
-* 1.0.1 - Added a confirmation box in case the button is clicked accidentally. (Jan 18, 2020)
+* 1.0.1 - Added a confirmation box in case the button is clicked accidentally. (Jan 19, 2020)
+* 1.0.2 - Replaced $.post with $.ajax, so I could apply a timeout and more flexible error handling. (Jan 20, 2020)

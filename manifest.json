@@ -1,6 +1,6 @@
 {
     "name": "Request Gryphon Unblock",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Grant Winney",
     "description": "If you're using the Gryphon router and a site is blocked, click the icon to request access.",
     "homepage_url": "https://github.com/grantwinney/request-gryphon-unblock",
