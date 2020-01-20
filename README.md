@@ -5,9 +5,17 @@ If you're using the [Gryphon router](https://gryphonconnect.com/) and a site is 
 - This has the same effect as visiting http://gryphoncare.com to request access.
 - Like visiting the GryphonCare site, you have to be on the same network protected by the Gryphon router.
 
+I created this as a small convenience because I kept forgetting the site, plus it saves a step or two. If you find it useful too, awesome.
+
+[Get it for the Chrome browser](https://chrome.google.com/webstore/detail/request-gryphon-unblock/jcbgegbfglpaiamonjoghejgcgljlaig).
+
 ## Permissions
 
 None
+
+## License
+
+[MIT](https://github.com/grantwinney/request-gryphon-unblock/blob/master/LICENSE) - _([learn more](https://tldrlegal.com/license/mit-license))_
 
 ## Issues
 

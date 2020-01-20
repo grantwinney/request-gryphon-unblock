@@ -1,12 +1,12 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
     let url = new URL(tab.url);
-    if (confirm(`Request that this site be unblocked? [${url.hostname}]`)) {
+    if (confirm(`You're about to send a request to unblock ${url.hostname}.\r\n\r\nCONTINUE?`)) {
         let postUrl = `http://gryphoncare.com/cgi-bin/luci/site_access_request/?url=${url.hostname}`;
         $.post(postUrl, function(_data, textStatus, xhr) {
             if (xhr.status == 200) {
-                alert(`Submitted an unblock request for: ${url.hostname}\r\n\r\nNOTE: The site will remain blocked until the request is handled by your network admin, who can unblock it or leave it as-is.`)
+                alert(`Submitted a request to unblock ${url.hostname}.\r\n\r\nNOTE: The site will remain blocked until your network admin sees your request and unblocks it.`)
             } else {
-                alert(`A problem occurred while requesting an unblock for: ${url.hostname}\r\n\r\n${textStatus}`)
+                alert(`A problem occurred while requesting that ${url.hostname} be unblocked.\r\n\r\nSTATUS: ${textStatus}`)
             }
         })
     }
